@@ -1,5 +1,8 @@
-require "PremierleagueTeams/version"
+require 'open-uri'
+require 'nokogiri'
+require 'pry'
 
-module PremierleagueTeams
-  # Your code goes here...
-end
+
+require_relative './PremierleagueTeams/version'
+require_relative './PremierleagueTeams/cli'
+require_relative './PremierleagueTeams/player'
